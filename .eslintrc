@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json",
+      "./cypress/tsconfig.json"
+    ],
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": [
+  ],
+  "env": {
+    "jest": true
+  },
+  "extends": [
+    "airbnb-typescript"
+  ],
+  "rules": {
+
+  }
+}
